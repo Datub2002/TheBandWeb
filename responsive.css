@@ -1,0 +1,70 @@
+/* 740px = 46.25 em>=mobile  */
+@media screen and (max-width: 46.1875em) {
+#header{
+    overflow: hidden;
+}
+#header .nav-main{
+    display: block;
+}
+.nav-main >li:first-child{
+    display: inline-block;
+}
+.nav-main >li {
+  display: block;
+}
+.search-icon{
+    display: none;
+}
+.nav-sub{
+     position: initial;  
+    background-color: #333;
+
+     /* gtri mac dinh cua position */
+}
+.nav-sub li a{
+    color: #fff;
+    padding: 5px 35px;
+}
+.member-section .this-mem{
+    width: 100%;
+}
+.this-mem img {
+    width: 60%;
+}
+.kimochi{
+    margin-bottom: 16px;
+    width: 100%;
+}
+
+.contact-form{
+    margin-top: 16px;
+   
+}
+.s-full-width,
+.s-full-col{
+    width: 100%;
+}
+.form-control{
+    padding: 12px !important;
+}
+.s-mt-8{
+    margin-top: 8px !important;
+}
+.buy-btn{
+    width: 100%;
+    text-align: center;
+}
+}
+/* tablet */
+@media screen and (max-width: 63.9375em ) and (min-width: 46.25em) {
+    
+     .menu-icon{
+        display: none;
+    } 
+}
+/* PC */
+@media screen and (min-width: 64em ) {
+    .menu-icon{
+        display: none;
+    }
+}
